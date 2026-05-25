@@ -7,6 +7,88 @@ body {
   margin: 0;
 }
 
+.main {
+  display: flex;
+  align-items: center;
+  gap: 1.597px;
+  flex-grow: 5;
+  align-self: stretch;
+}
+
+.schedule {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scheduleContents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-bottom: 1.597px solid rgba(0, 0, 0, 0.10);
+  background: #FFF;
+}
+
+.scheduleHeader {
+  display: flex;
+  padding: 0 47.911px;
+  align-items: center;
+  gap: 15.97px;
+  align-self: stretch;
+}
+
+.scehduleBody {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+  border-bottom: 1.597px solid rgba(0, 0, 0, 0.10);
+  border-left: 1.597px solid rgba(0, 0, 0, 0.10);
+}
+
+.statsHeader {
+  display: flex;
+  padding: 0 47.911px;
+  align-items: center;
+  gap: 15.97px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+
+.forms {
+  display: flex;
+  padding: 0 48.427px;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  align-self: stretch;
+}
+
+.formsHeader {
+  display: flex;
+  padding: 48.427px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formsBody {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 41.97px;
+}
+
 .banner {
   display: flex;
   align-items: center;
